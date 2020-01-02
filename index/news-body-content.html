@@ -71,7 +71,7 @@
 		$science.html(sciencestrHtml);//显示处理后的数据	
 	});
 	//加载娱乐新闻列表
-	$.getJSON("/News/static/json/fun.json",function(data){
+	$.getJSON("../static/json/fun.json",function(data){
 		var $fun = $(".fun_connect1");
 		var funstrHtml = "";//存储新闻热点数据的变量
 		$fun.empty();//清空内容
